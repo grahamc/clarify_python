@@ -32,6 +32,8 @@ setup(
                  'clarify_python'},
     include_package_data=True,
     install_requires=[
+        'urllib3',
+        'certifi',
     ],
     license="MIT",
     zip_safe=False,
